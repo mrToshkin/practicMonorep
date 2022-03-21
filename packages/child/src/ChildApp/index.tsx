@@ -1,8 +1,16 @@
-export React from 'react';
+import React, { FC } from "react"
 
-
-interface Props {
+export interface Props {
   text?: string
 }
 
-export const ChildApp = () => 'Kek'
+export const ChildApp: FC<Props> = ({ text }) => (
+  <>
+    <div>
+      kek
+    </div>
+    <div>
+      {text}
+    </div>
+  </>
+)

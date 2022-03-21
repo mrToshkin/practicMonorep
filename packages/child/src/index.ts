@@ -1,1 +1,3 @@
-export { ChildApp } from "./ChildApp";
+export * from "./ChildApp";
+
+export type Kek = 'Kek'
