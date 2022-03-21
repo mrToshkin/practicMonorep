@@ -1,0 +1,13 @@
+{
+  "name": "monorep",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "yarn workspace @monorep/parent"
+  },
+  "author": "Anton Strizhov",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ]
+}
